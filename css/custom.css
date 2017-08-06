@@ -70,7 +70,7 @@ body {
     margin-right: 15px;
 }
 
-.header .header-top .right .social ul li  {
+.header .header-top .right .social ul li {
     color: #ffffff;
 }
 
@@ -113,15 +113,15 @@ body {
     text-decoration: none;
 }
 
-#home-carousel  .item {
+#home-carousel .item {
     background-position: center top;
     background-repeat: no-repeat;
-    background-size:cover;
-    width:100%;
+    background-size: cover;
+    width: 100%;
     height: 650px;
 }
 
-#home-carousel .item:before{
+#home-carousel .item:before {
     background-color: #000;
     content: "";
     height: 100%;
@@ -144,26 +144,26 @@ body {
 }
 
 .carousel-caption h1 {
-    font-size:46px;
-    margin-bottom:0;
-    line-height:27px;
-    letter-spacing:2px;
-    font-weight:100;
+    font-size: 46px;
+    margin-bottom: 0;
+    line-height: 27px;
+    letter-spacing: 2px;
+    font-weight: 100;
 }
 
 .carousel-caption h2 {
-    font-size:81px;
-    font-weight:600;
-    margin-top:0px;
-    text-transform:lowercase;
-    letter-spacing:2px;
-    margin-bottom:20px;
+    font-size: 81px;
+    font-weight: 600;
+    margin-top: 0px;
+    text-transform: lowercase;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
 }
 
 .home-carousel-left,
 .home-carousel-right {
     background-color: #f0f0f0;
-    color:#000;
+    color: #000;
     font-size: 32px;
     height: 40px;
     line-height: 40px;
@@ -181,26 +181,27 @@ body {
 }
 
 .home-carousel-left {
-    left:-32px;
+    left: -32px;
 }
 
 .home-carousel-right {
-    right:-32px;
+    right: -32px;
 }
 
 #home-carousel:hover .home-carousel-left {
-    left:0;
+    left: 0;
 }
 
 #home-carousel:hover .home-carousel-right {
-    right:0;
+    right: 0;
 }
+
 /* Carousel animation */
 
 #home-carousel .item h1,
 #home-carousel .item h2,
 #home-carousel .item p {
-    opacity:0;
+    opacity: 0;
     -moz-transform: scale(0.5);
     -webkit-transform: scale(0.5);
     -o-transform: scale(0.5);
@@ -219,7 +220,7 @@ body {
 #home-carousel .item.active h1,
 #home-carousel .item.active h2,
 #home-carousel .item.active p {
-    opacity:1;
+    opacity: 1;
     -moz-transform: scale(1);
     -webkit-transform: scale(1);
     -o-transform: scale(1);
@@ -243,7 +244,6 @@ body {
     transition: all 0.5s ease-in-out 0.45s;
 }
 
-
 /*Starts Main Content*/
 
 /*Starts Who We Are*/
@@ -264,7 +264,7 @@ body {
     width: 50%;
 }
 
-.who-we-are .left ul li:nth-child(1),.who-we-are .left ul li:nth-child(3)  {
+.who-we-are .left ul li:nth-child(1), .who-we-are .left ul li:nth-child(3) {
     border-right: 1px solid #dcdcdc;
 }
 
@@ -282,7 +282,7 @@ body {
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
-   border-radius: 50%;
+    border-radius: 50%;
     height: 80px;
     line-height: 80px;
     margin: 0 auto 10px;
@@ -301,19 +301,26 @@ body {
 
 .our-service .tile {
     margin-bottom: 50px;
+    text-align: center;
 }
 
 .our-service .icon {
-    background-color: #02bdd5;
+    background-color: #42A5F5;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
     border-radius: 50%;
     color: #ffffff;
+    display: table;
     font-size: 50px;
     height: 100px;
     line-height: 100px;
+    margin: 0 auto;
     overflow: hidden;
     text-align: center;
     text-decoration: none;
-    text-shadow: 1px 1px #00a4ba, 2px 2px #00a4ba, 3px 3px #00a4ba, 4px 4px #00a4ba, 5px 5px #00a4ba, 6px 6px #00a4ba, 7px 7px #00a4ba, 8px 8px #00a4ba, 9px 9px #00a4ba, 10px 10px #00a4ba, 11px 11px #00a4ba, 12px 12px #00a4ba, 13px 13px #00a4ba, 14px 14px #00a4ba, 15px 15px #00a4ba, 16px 16px #00a4ba, 17px 17px #00a4ba, 18px 18px #00a4ba, 19px 19px #00a4ba, 20px 20px #00a4ba, 21px 21px #00a4ba, 22px 22px #00a4ba, 23px 23px #00a4ba, 24px 24px #00a4ba, 25px 25px #00a4ba, 26px 26px #00a4ba, 27px 27px #00a4ba, 28px 28px #00a4ba, 29px 29px #00a4ba, 30px 30px #00a4ba, 31px 31px #00a4ba, 32px 32px #00a4ba, 33px 33px #00a4ba, 34px 34px #00a4ba, 35px 35px #00a4ba, 36px 36px #00a4ba, 37px 37px #00a4ba, 38px 38px #00a4ba, 39px 39px #00a4ba, 40px 40px #00a4ba, 41px 41px #00a4ba, 42px 42px #00a4ba, 43px 43px #00a4ba, 44px 44px #00a4ba, 45px 45px #00a4ba, 46px 46px #00a4ba, 47px 47px #00a4ba, 48px 48px #00a4ba, 49px 49px #00a4ba, 50px 50px #00a4ba, 51px 51px #00a4ba, 52px 52px #00a4ba, 53px 53px #00a4ba, 54px 54px #00a4ba, 55px 55px #00a4ba, 56px 56px #00a4ba, 57px 57px #00a4ba, 58px 58px #00a4ba, 59px 59px #00a4ba, 60px 60px #00a4ba, 61px 61px #00a4ba, 62px 62px #00a4ba, 63px 63px #00a4ba, 64px 64px #00a4ba, 65px 65px #00a4ba, 66px 66px #00a4ba, 67px 67px #00a4ba, 68px 68px #00a4ba, 69px 69px #00a4ba, 70px 70px #00a4ba, 71px 71px #00a4ba, 72px 72px #00a4ba, 73px 73px #00a4ba, 74px 74px #00a4ba, 75px 75px #00a4ba, 76px 76px #00a4ba, 77px 77px #00a4ba, 78px 78px #00a4ba, 79px 79px #00a4ba, 80px 80px #00a4ba, 81px 81px #00a4ba, 82px 82px #00a4ba, 83px 83px #00a4ba, 84px 84px #00a4ba, 85px 85px #00a4ba, 86px 86px #00a4ba, 87px 87px #00a4ba, 88px 88px #00a4ba, 89px 89px #00a4ba, 90px 90px #00a4ba, 91px 91px #00a4ba, 92px 92px #00a4ba, 93px 93px #00a4ba, 94px 94px #00a4ba, 95px 95px #00a4ba, 96px 96px #00a4ba, 97px 97px #00a4ba, 98px 98px #00a4ba, 99px 99px #00a4ba, 100px 100px #00a4ba;
+    text-shadow: 1px 1px #1976D2, 2px 2px #1976D2, 3px 3px #1976D2, 4px 4px #1976D2, 5px 5px #1976D2, 6px 6px #1976D2, 7px 7px #1976D2, 8px 8px #1976D2, 9px 9px #1976D2, 10px 10px #1976D2, 11px 11px #1976D2, 12px 12px #1976D2, 13px 13px #1976D2, 14px 14px #1976D2, 15px 15px #1976D2, 16px 16px #1976D2, 17px 17px #1976D2, 18px 18px #1976D2, 19px 19px #1976D2, 20px 20px #1976D2, 21px 21px #1976D2, 22px 22px #1976D2, 23px 23px #1976D2, 24px 24px #1976D2, 25px 25px #1976D2, 26px 26px #1976D2, 27px 27px #1976D2, 28px 28px #1976D2, 29px 29px #1976D2, 30px 30px #1976D2, 31px 31px #1976D2, 32px 32px #1976D2, 33px 33px #1976D2, 34px 34px #1976D2, 35px 35px #1976D2, 36px 36px #1976D2, 37px 37px #1976D2, 38px 38px #1976D2, 39px 39px #1976D2, 40px 40px #1976D2, 41px 41px #1976D2, 42px 42px #1976D2, 43px 43px #1976D2, 44px 44px #1976D2, 45px 45px #1976D2, 46px 46px #1976D2, 47px 47px #1976D2, 48px 48px #1976D2, 49px 49px #1976D2, 50px 50px #1976D2, 51px 51px #1976D2, 52px 52px #1976D2, 53px 53px #1976D2, 54px 54px #1976D2, 55px 55px #1976D2, 56px 56px #1976D2, 57px 57px #1976D2, 58px 58px #1976D2, 59px 59px #1976D2, 60px 60px #1976D2, 61px 61px #1976D2, 62px 62px #1976D2, 63px 63px #1976D2, 64px 64px #1976D2, 65px 65px #1976D2, 66px 66px #1976D2, 67px 67px #1976D2, 68px 68px #1976D2, 69px 69px #1976D2, 70px 70px #1976D2, 71px 71px #1976D2, 72px 72px #1976D2, 73px 73px #1976D2, 74px 74px #1976D2, 75px 75px #1976D2, 76px 76px #1976D2, 77px 77px #1976D2, 78px 78px #1976D2, 79px 79px #1976D2, 80px 80px #1976D2, 81px 81px #1976D2, 82px 82px #1976D2, 83px 83px #1976D2, 84px 84px #1976D2, 85px 85px #1976D2, 86px 86px #1976D2, 87px 87px #1976D2, 88px 88px #1976D2, 89px 89px #1976D2, 90px 90px #1976D2, 91px 91px #1976D2, 92px 92px #1976D2, 93px 93px #1976D2, 94px 94px #1976D2, 95px 95px #1976D2, 96px 96px #1976D2, 97px 97px #1976D2, 98px 98px #1976D2, 99px 99px #1976D2, 100px 100px #1976D2;
     width: 100px;
 }
 
@@ -326,6 +333,166 @@ body {
 }
 
 /*Ends Our Services*/
+
+/*Ends Our Services*/
+
+.work-area .row {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.work-area .col-md-4 {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.work-area .tile {
+    padding: 20px;
+    color: #fff;
+}
+
+.work-area .tile.bg-color1 {
+    background: #ef5350;
+}
+
+.work-area .tile.bg-color2 {
+    background: #66BB6A;
+}
+
+.work-area .tile.bg-color3 {
+    background: #42A5F5;
+}
+
+.work-area .tile h4 {
+    padding-left: 25px;
+    position: relative;
+}
+
+.work-area .tile h4::before {
+    background: #000000;
+    content: "";
+    height: 15px;
+    left: 0;
+    position: absolute;
+    top: 4px;
+    width: 15px;
+}
+
+.work-area .tile.bg-color1 h4 {
+    color: #b71c1c;
+}
+
+.work-area .tile.bg-color1 h4:before {
+    background: #b71c1c;
+}
+
+.work-area .tile.bg-color2 h4 {
+    color: #1B5E20;
+}
+
+.work-area .tile.bg-color2 h4:before {
+    background: #1B5E20;
+}
+
+.work-area .tile.bg-color3 h4 {
+    color: #0D47A1;
+}
+
+.work-area .tile.bg-color3 h4:before {
+    background: #0D47A1;
+}
+
+.work-area .tile h4::after {
+    background: #ffffff;
+    content: "";
+    height: 8px;
+    left: 0;
+    position: absolute;
+    top: 4px;
+    width: 8px;
+}
+
+/*Ends Our Services*/
+
+/*Starts Why Choose*/
+.why-choose .tile {
+    background: #ffffff none repeat scroll 0 0;
+    -webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+    -moz-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+    -ms-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+    -o-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+    padding: 20px;
+    text-align: center;
+}
+
+.why-choose .tile h4 {
+    margin: 20px 0 15px;
+}
+
+.why-choose .tile p {
+    margin: 0;
+}
+
+/*Ends Why Choose*/
+
+/*Starts Testimonials*/
+
+.testimonials {
+    background: #B24592;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #F15F79, #B24592);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #F15F79, #B24592); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding: 30px;
+}
+
+.testimonials .tile {
+    background: #e56f91;
+    color: #ffffff;
+    margin: 20px;
+    padding: 20px;
+    position: relative;
+}
+
+.testimonials .tile .desc {
+    border-top: 1px solid #ff8daf;
+    margin-top: 30px;
+    padding-top: 20px;
+}
+
+.testimonials .owl-theme .owl-controls .owl-page span {
+    background: #ffffff;
+}
+
+.testimonials .tile .desc h5, .testimonials .tile .desc h6 {
+    font-style: italic;
+    margin: 0;
+}
+
+.testimonials .tile .desc h5 {
+    margin-bottom: 5px;
+    margin-top: 25px;
+}
+
+.testimonials .main-title h2 {
+    color: #ffffff;
+}
+
+.testimonials .main-title h2::before {
+    border: 1px solid #ffffff;
+}
+
+.testimonials .tile .fa {
+    left: 20px;
+    position: absolute;
+    top: 20px;
+}
+
+.testimonials .tile p {
+    padding-left: 40px;
+}
+
+/*Ends Testimonials*/
+
 
 /*Ends Main Content*/
 
